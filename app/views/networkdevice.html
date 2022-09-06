@@ -1,0 +1,135 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+<a href="index.html" class="govuk-back-link">Back</a>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">
+      Network device protection standards for schools and colleges
+      <span class="govuk-caption-m">{{releaseVersion}}</span>
+    </h1>{{releaseVersion | log }}
+
+    <p>Find out what standards your school or college should meet on network device protection, firewalss and anti-malware.</p>
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+     
+        <h2 class="govuk-accordion__section-heading" id="protect-all-devices-on-every-network-with-a-properly-configured-boundary-or-software-firewall" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"1. Protect all devices on every network with a properly configured boundary or software firewall.","id":"protect-all-devices-on-every-network-with-a-properly-configured-boundary-or-software-firewall"},"index":1,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-1">Protect all devices on every network with a properly configured boundary or software firewall.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-1" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-1">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Properly configured firewalls prevent many attacks. They also make scanning for suitable hacking targets much harder.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices to meet the standards described in the technical requirements.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>To meet this standard you must:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>protect every device with a correctly configured boundary, or software firewall, or a device that performs the same function</li>
+  <li>change the default administrator password, or disable remote access on each firewall</li>
+  <li>protect access to the firewall’s administrative interface with multi-factor authentication (MFA), or a small specified IP-allow list combined with a managed password, or prevent access from the internet entirely</li>
+  <li>block inbound unauthenticated connections by default</li>
+  <li>approve and document the reasons for allowed inbound traffic firewall rules</li>
+  <li>review allowed inbound firewall rules often, change the rule when access is no longer needed</li>
+  <li>devices used on untrusted networks, like public wi-fi, should have a software firewall</li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>DfE internet standards.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should already be meeting this standard for the security of your networks. This should be reviewed with the addition of each device to your network.</p>
+
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="network-devices-such-as-routers-switches-and-servers-should-be-known-and-recorded-their-security-features-should-be-enabled-and-correctly-configured" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"2. Network devices, such as routers, switches and servers, should be known and recorded. Their security features should be enabled and correctly configured.","id":"network-devices-such-as-routers-switches-and-servers-should-be-known-and-recorded-their-security-features-should-be-enabled-and-correctly-configured"},"index":2,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-2">Network devices, such as routers, switches and servers, should be known and recorded. Their security features should be enabled and correctly configured.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-2" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-2">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Security systems are sometimes disabled to make very marginal improvements to user experience. This is an unjustifiable risk calculation in most circumstances.</p>
+<p>Attackers scan for and exploit devices where the security features are not enabled. Using the security features that devices already have is the most basic form of cyber security.</p>
+<p>Attackers who gain physical access to a network device can exploit a system much more easily, so this should be prevented.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to record and set up your devices and BIOS to meet the technical requirements.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<p>The National Cyber Security Centre has published guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance">managing devices</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/logging-and-protective-monitoring">logging and protective monitoring</a></li>
+</ul>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>To meet this standard you must:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>keep a register, list or network diagram with all the devices in your network or network segment, if the network is larger than one institution</li>
+  <li>make a choice about which features to use on your network if network devices have conflicting security features</li>
+  <li>remove or disable unused user accounts, including guest and unused administrator accounts</li>
+  <li>change default passwords</li>
+  <li>remove or disable all unnecessary software according to your organisational need</li>
+  <li>disable any auto-run features that allow file execution without user authorisation</li>
+  <li>set up filtering and monitoring services to work with the network’s security features enabled</li>
+  <li>require user authentication to access organisational services or data, for instance, only allow viewing of public-facing data</li>
+  <li>immediately change passwords which have been compromised or suspected of compromise</li>
+  <li>protect against a brute-force attack on all passwords by allowing no more than 10 guesses in 5 minutes, or locking devices after no more than 10 unsuccessful attempts</li>
+</ul>
+<p>You can use a password or PIN of at least 6 characters to physically access switches, BIOS settings on end-user devices and similar. The password or PIN must only be used to access this device.</p>
+<p>For all other devices, you must enforce password strength at the system level. If you use a deny list for automatic blocking of common passwords, use a password with at least 8 characters. Or, use a password with at least 12 characters or a biometric test.</p>
+<p>Password manager software is recommended.</p>
+<p>The National Cyber Security Centre provides detailed guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance">best practice</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/passwords">password administration for system owners</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/platform-guides">securing your devices</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/the-logic-behind-three-random-words">the logic behind three random words</a></li>
+</ul>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should already be meeting this standard.</p>
+</div>
+</div>
+</div>          <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="you-should-use-anti-malware-software-to-protect-all-devices-in-the-network-including-cloud-based-networks" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"5. You should use anti-malware software to protect all devices in the network, including cloud-based networks.","id":"you-should-use-anti-malware-software-to-protect-all-devices-in-the-network-including-cloud-based-networks"},"index":5,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-5">You should use anti-malware software to protect all devices in the network, including cloud-based networks.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-5" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-5">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Up-to-date anti-malware software reduces the risk from many forms of cyber attack.</p>
+<p>Anti-virus software is a form of anti-malware software which protects against some forms of malware.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices to meet the technical requirements.</p>
+<p>The National Cyber Security Centre on <a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software">antivirus and other security software</a>.</p>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>You must make sure anti-malware software and associated files and databases:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>are kept up to date</li>
+  <li>are set up to scan files upon access, when downloaded, opened, or accessed from a network folder</li>
+  <li>scan web pages as they are accessed</li>
+  <li>prevent access to potentially malicious websites, unless risk-assessed, authorised and documented against a specific business requirement</li>
+</ul>
+<p>Do not run applications or access data which has been identified as malware. Use the anti-malware software to eliminate the problem.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as you can.</p>
+</div>
+</div>
+</div>      
+</div>
+  </div>
+   
+  </div>
+
+
+{% endblock %}

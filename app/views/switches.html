@@ -1,0 +1,149 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+<a href="index.html" class="govuk-back-link">Back</a>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">
+      Switches standards for schools and colleges
+      <span class="govuk-caption-m">{{releaseVersion}}</span>
+    </h1>{{releaseVersion | log }}
+
+    <p>Find out what standards your school or college should meet on switches performance, management, security and resilience.</p>
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+          The network switches should provide fast, reliable and secure connections to all users both wired and wireless,
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-1">
+<h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+<p> You will have a high number of users accessing the network at the same time. A high-performance solution will make sure that the speed and management of data transferred around the network is efficient, secure and doesn’t slow down as more devices use it.</p>
+
+
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+
+<p> You should ask your supplier or in-house support team to make sure that switches provide a minimum of 1Gbps connectivity to the user device deployed to the desktop.<br><br>
+
+You should also make sure that higher speed (multi-gigabit) ports support devices and infrastructure equipment that need high bandwidth such as servers, media devices and wireless access points See dependencies on this standard.<br><br>
+
+Switches that connect to wireless access points, CCTV and telephones must comply with the correct POE requirements outlined by the device manufacturer.
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> Where switches are stacked, they should support 40 Gbps interconnects between switches in a stack, dedicated stacking ports should be used to enable high speed communication between each switch in the stack.<br><br>
+
+Connections linking switches/switch stacks in hub rooms must connect back to the core server room using a minimum of 2x10Gbpps with links taking different routes where possible. See dependencies on this standard.<br><br>
+
+Switches providing POE should adhere to IEEE 802.3af.at or bt as required by the connecting device and have LLDP-Med enabled.<br><br>
+
+  Switches should:
+  <ul class="govuk-list govuk-list--bullet">
+  <li>have a minimum of 512MB of core memory</li>
+  <li>support a minimum of 16000 MAC addresses</li>
+  <li> support spanning tree protocols such as MST/RST</li>
+  <li> use non-blocking switch fabric</li>
+  </ul>
+
+<p> Switches should be Energy Efficient Ethernet compliant to a minimum of 802.3az standard or equivalent.</p>
+
+  <h2 class="govuk-heading-s">Dependencies to the standard</h2>
+
+  <p> The performance of your network switches may be impacted by the specification and quality of your network cabling.</p>
+
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+
+<p> You should meet the standard when you need to replace your current solution that is underperforming or unsupported.</p>
+
+    </div>
+  </div>
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+          Have a platform that can centrally manage the network switch infrastructure
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-2" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-2">
+
+<h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+<p> A computer network will have many users accessing and transferring data. A central management console will allow the control and monitoring of the network efficiently and securely to ensure effective performance.</p>
+
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p> Your supplier or in-house support team should provide a central management tool that can be used to configure the switching (core and edge), monitor performance and provide alerts in the event of a failure.</p>
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> Switches should include a manufacturer warranty and support arrangement (telephone, email and web) including licences, software enhancements and firmware updates, providing five years of cover as a minimum.<br><br>
+
+They should also include a system administrator training package on your school or college site that is:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>approved by your manufacturer</li>
+<li>appropriate to the scale of the solution</li>
+</ul>
+
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+
+<p> You should meet the standard when you need to replace your current solution that is underperforming or unsupported.</p>
+  </div>
+  </div>
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+          The network switches should have security features to protect users and data from unauthorised access
+      </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-3" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-3">
+    <h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+    <p> School and college IT networks should prevent access by unauthorised users while giving access to regular and quest users.<br><br>
+
+Network switch infrastructure without adequate security may allow unauthorised users access to secure information stored by the school or college, such as student records.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p> You should ask your supplier or in-house support team to ensure that switches are configured to support network segregation, security and quality of service. This should not impact the network’s deployment or performance and should be aligned with the environment.</p>
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> You should ensure that you have implemented NACs and Policy Management that ensures authorised mobile user devices or guest user roles are securely authenticated onto the network. Network traffic should be protected from external and unauthorised internal interception.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p> You should meet the standard when you need to replace your current solution that is underperforming, unsupported or following a scheduled maintenance/configuration review.</p>
+</div>
+<div class="govuk-accordion__section ">
+  <div class="govuk-accordion__section-header">
+    <h2 class="govuk-accordion__section-heading">
+      <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+        Core network switches should be connected to at least one UPS to reduce the impact of outages
+    </span>
+    </h2>
+  </div>
+  <div id="accordion-default-content-3" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-3">
+    <h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+    <p> Your school or college will have a high number of users accessing the network at the same time. An outage of part or all of the network would cause disruption to teaching and admin operations.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p> Ask your supplier or in-house support team to make sure that critical switches and their connections have been identified to ensure any failure of any single element will not cause a major outage.<br><br>
+
+These will include items such as multiple power supplies, UPS solutions and dual connections between switches.</p>
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> Critical core switches should have at least:</p>
+<ul class="govuk-list govuk-list--bullet">
+<li>two power supplies</li>
+<li>two management modules</li>
+<li>two connections to other critical infrastructure such as routers, servers and other core switches</li>
+</ul>
+<p> The critical core switches should be connected to at least one UPS.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should meet the standard when you need to replace your current solution that is underperforming, unsupported, or following a scheduled maintenance/configuration review.</p>
+    </div>
+  </div>
+
+
+
+{% endblock %}

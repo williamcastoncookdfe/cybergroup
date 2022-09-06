@@ -1,0 +1,117 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+<a href="index.html" class="govuk-back-link">Back</a>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">
+      Network cabling standards for schools and colleges
+      <span class="govuk-caption-m">{{releaseVersion}}</span>
+    </h1>{{releaseVersion | log }}
+
+    <p>Find out what standards your school or college should meet on copper cabling, optical fibre cabling and installation.</p>
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-1">
+          Copper cabling should be Category 6a (Cat 6A)
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-1" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-1">
+<h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+<p> Category 6A cabling provides greater data capacity over longer distances than previous copper cabling standards. It will provide schools and colleges the flexibility to increase the volume and specification of the technology they will need to connect to their networks.<br><br>
+
+The quality and specification of the school’s or college’s cabling (passive infrastructure) plays a critical role in making sure that data is transferred around the school.<br><br>
+
+Faulty or low specification cabling will have a negative impact on the quality of network performance.</p>
+
+
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+
+<p> You should confirm with your supplier or in-house support team that all cabling complies with British Standards 6701, 50173 and 50174 which cover the specification, installation, operation and maintenance of network cabling.</p>
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> Although there are different variants of Category 6A cable, U/FTP – Unshielded outer shell/Foil Shielded Twisted Pair is recommended as a minimum with all terminations and installations following the manufacturer’s guidelines.<br><br>
+
+The installed cable (permanent link) should be not greater than 90m.<br><br>
+
+No intermediate splices or patch panels should be used in the cable runs. The minimum bend radius should not be exceeded during installation and when the cables are in their final operating position.<br><br>
+
+For new installations, cabling should comply to fire rating requirements defined int he latest version of British Standards 6701, currently stated as Euroclass Cca s1b.d2.a2.<br><br>
+
+The containment where the cables are installed should fully support the cables, as well as maintaining the required bend radius and separation from other types of cable and sources of interference.<br><br>
+
+The patch leads used to connect devices to the cabling infrastructure, are an important part of the overall cabling channel. It should be the same type and standard as the installed cable from the same manufacturer.</p>
+
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+
+<p> You should meet the standard when you need to replace your current solution that is underperforming, unsupported and in new school or college building projects.</p>
+
+    </div>
+  </div>
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-2">
+          Optical fibre cabling should be a minimum 16 core multi-mode OM4
+        </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-2" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-2">
+
+<h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+<p> OM4 optical fibre cable provides capacity to transfer data over longer distances and plays a critical role in making sure that data is transferred around the school or college network effectively. This happens by linking server and hub rooms together either within the same building, or different buildings on the school or college campus. Faulty or low specification cabling will have a negative impact on the quality of network performance.</p>
+
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p> You should confirm with your supplier or in-house support team that all cabling complies as a minimum with British Standards 6701, 50173 and 50174, which cover the specification, installation, operation and maintenance of network cabling.<br><br>
+
+You should also ensure that all connections between buildings use OM4 optical fibre cabling.</p>
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> No intermediate splices or patch panels should be used in the cable runs. The minimum bend radius should not be exceeded during installation and when the cables are in their final operating position.<br><br>
+
+Where possible, optical fibre links between buildings should be installed in underground ducts, for maximum protection.<br><br>
+
+For critical systems, redundant optical fibre links should be considered through different routes between buildings.</p>
+
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+
+<p> You should meet the standard when you need to replace your current solution that is underperforming, unsupported and in new school or college building projects.</p>
+  </div>
+  </div>
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+      <h2 class="govuk-accordion__section-heading">
+        <span class="govuk-accordion__section-button" id="accordion-default-heading-3">
+          New cabling should be installed and tested in line with the manufacturer’s guidance, warranty terms, and conditions
+      </span>
+      </h2>
+    </div>
+    <div id="accordion-default-content-3" class="govuk-accordion__section-content" aria-labelledby="accordion-default-heading-3">
+    <h2 class="govuk-heading-s">Importance of meeting the standard</h2>
+    <p> The quality and specification of your school’s or college’s cabling (passive infrastructure) plays a critical role in making sure that data is transferred around the school or college. Faulty or low specification cabling will have a negative impact on the quality of network performance.
+</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p> You should confirm with your supplier or in-house support team that all new cabling complies with the relevant British Standards 6701, 50173 and 50174 which cover the specification, installation, operation and maintenance of network cabling.<br><br>
+
+Cables should be installed by manufacturer approved installation partners, with the relevant network infrastructure installed accreditations.<br><br>
+
+The network infrastructure installer should also provide a detailed test report showing successful test results for all the installed network cables, based on the test limits defined in British Standards 50173.</p>
+
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p> A minimum 20-year manufacturer’s performance warranty should be provided for the complete cabling system.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p> You should meet the standard when you need to replace your current solution that is underperforming, unsupported and in new school or college building projects.</p>
+</div>
+
+    </div>
+  </div>
+
+{% endblock %}

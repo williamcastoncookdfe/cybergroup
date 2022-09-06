@@ -1,0 +1,123 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+  Blank page
+{% endblock %}
+
+{% block content %}
+<a href="index.html" class="govuk-back-link">Back</a>
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">
+      Software security standards for schools and colleges
+      <span class="govuk-caption-m">{{releaseVersion}}</span>
+    </h1>{{releaseVersion | log }}
+
+    <p>Find out what standards your school or college should meet on software security, licenses and security patches.</p>
+
+<div class="govuk-accordion" data-module="govuk-accordion" id="accordion-default">
+  <div class="govuk-accordion__section ">
+    <div class="govuk-accordion__section-header">
+     
+      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="an-administrator-should-check-the-security-of-all-applications-downloaded-onto-a-network" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"6. An administrator should check the security of all applications downloaded onto a network.","id":"an-administrator-should-check-the-security-of-all-applications-downloaded-onto-a-network"},"index":6,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-6">An administrator should check the security of all applications downloaded onto a network.</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-6" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-6">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+   <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Applications can:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>be designed to insert malware onto a network</li>
+  <li>have unintentional security weaknesses</li>
+</ul>
+<p>This makes attacks easier to execute against the network.</p>
+<p>Users should not download applications. The IT service provider should check them first.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to set up your devices to meet the technical requirements.</p>
+<p>The National Cyber Security Centre provides guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/policies-and-settings/antivirus-and-other-security-software">the selection, configuration and use of antivirus and other security software</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/guidance/mitigating-malware-and-ransomware-attacks">how to defend organisations against malware or ransomware attacks</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/malicious-macros-are-still-causing-problems">malicious Microsoft Office macros</a></li>
+</ul>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>The IT service provider should approve all applications that are deployed and executed by devices.</p>
+<p>Best practice is to maintain a current list of approved applications. Applications with invalid or no digital signatures should not be installed or used.</p>
+<p>The IT service provider or system administrator should make sure unknown applications and code do not pose a security risk. They should do this in the best way possible given the institution’s resources.</p>
+<p>You could search the internet to check the reputation of the application and the hosting site.</p>
+<p>The network’s anti-malware service should scan all downloaded applications. Make sure this is happening.</p>
+<p>You could also run unknown applications or code within a sandbox environment. Preventing access to other system elements and resources, unless the user grants permission. These system elements and resources include data, sensitive peripherals and local network access.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as possible.</p>
+</div>
+</div>
+</div>      <div class="govuk-accordion__section">
+        <div class="govuk-accordion__section-header">
+          <h2 class="govuk-accordion__section-heading" id="all-online-devices-and-software-must-be-licensed-for-use-you-should-complete-security-patches-and-manual-configuration-changes-within-14-days-of-their-release-complete-within-3-days-if-notified-by-the-department-for-education-dfe" data-module="ga4-event-tracker" data-ga4='{"event_name":"select_content","type":"accordion","text":{"text":"7. All online devices and software must be licensed for use. You should complete security patches and manual configuration changes within 14 days of their release. Complete within 3 days if notified by the Department for Education (DfE).","id":"all-online-devices-and-software-must-be-licensed-for-use-you-should-complete-security-patches-and-manual-configuration-changes-within-14-days-of-their-release-complete-within-3-days-if-notified-by-the-department-for-education-dfe"},"index":7,"index_total":11}'><span class="govuk-accordion__section-button" id="default-id-7d7674ef-heading-7">All online devices and software must be licensed for use. You should complete security patches and manual configuration changes within 14 days of their release. Complete within 3 days if notified by the Department for Education (DfE).</span></h2>
+          
+</div>        <div id="default-id-7d7674ef-content-7" class="govuk-accordion__section-content" aria-labelledby="default-id-7d7674ef-heading-7">
+<div class="gem-c-govspeak govuk-govspeak " data-module="govspeak">
+    <h2 class="govuk-heading-s">The importance of meeting the standard</h2>
+<p>Hackers try to identify and exploit the vulnerability that each new security update addresses. They try to do this before users are able to update their systems. In the last year, several attacks on educational establishments have taken advantage of this.</p>
+<p>Unsupported software does not receive security updates and over time it becomes:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>more vulnerable as methods of exploitation are discovered</li>
+  <li>less compatible with the security measures integrated into the network operating system</li>
+</ul>
+<p>Unlicensed software may not be a legitimate copy, or it may not be updatable to the latest secure standards.</p>
+<p>You must not use unlicensed hardware or software.</p>
+<p>You should avoid or replace unpatched or unsupported hardware or software. These devices are the most popular targets for successful cyber attacks.</p>
+<p>If this is not possible then these devices and software must not be accessible from the internet - so that scanning tools cannot find weaknesses.</p>
+<h2 class="govuk-heading-s">How to meet the standard</h2>
+<p>Ask your IT service provider to make sure all devices and software are licensed, supported and set up to meet the technical requirements.</p>
+<p>So that appropriate risk assessment and mitigation can take place, your IT service provider should tell leadership and governors at the school or college when devices or software:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>have become unsupported</li>
+  <li>are about to become unsupported</li>
+  <li>alter the network</li>
+</ul>
+<p>Your IT service provider may be a staff technician or an external service provider.</p>
+<p>Remember that this standard may change over time with changing cyber threats.</p>
+<p>The National Cyber Security Centre provides guidance on:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/managing-deployed-devices/obsolete-products">managing legacy products</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/device-security-guidance/infrastructure/virtual-private-networks">how to approach network segmentation</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/guidance/vulnerability-management">help organisations assess and prioritise vulnerabilities</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/collection/top-tips-for-staying-secure-online/install-the-latest-software-and-app-updates">applying patches</a></li>
+  <li><a rel="external" href="https://www.ncsc.gov.uk/blog-post/the-problems-with-patching">problems with patching</a></li>
+</ul>
+<h2 class="govuk-heading-s">Technical requirements to meet the standard</h2>
+<p>All software must be currently licensed.</p>
+<p>You should remove unsupported software. If this is not possible then you must only use the software on parts of the network which prevent all traffic to and from the internet.</p>
+<p>Unsupported devices must only access segmented areas of the network which do not grant access to sensitive data.</p>
+<p>You must keep anti-malware software and associated files and databases up to date.</p>
+<p>You must enable automatic updates.</p>
+<p>If forced, you must complete manual updates to hardware or software, including configuration changes, within 14 days of release where the vulnerability is:</p>
+<ul class="govuk-list govuk-list--bullet">
+  <li>
+    <p>described as high risk or worse</p>
+  </li>
+  <li>
+    <p>has a Common Vulnerability Scoring System (CVSSv3) score of 7 or above</p>
+  </li>
+</ul>
+<p>When notified by the Department for Education (DfE), patches should be applied within 3 days of notification. This will only be done in instances of dangerous zero-day attacks where institutions are at immediate risk and there is a suitable patch available.</p>
+<h2 class="govuk-heading-s">Dependencies to the standard</h2>
+<p>None known.</p>
+<h2 class="govuk-heading-s">When to meet the standard</h2>
+<p>You should be meeting this standard as soon as possible.</p>
+</div>
+</div>
+</div>    
+</div>
+  </div>
+   
+  </div>
+
+
+{% endblock %}
